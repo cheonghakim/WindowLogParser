@@ -1,4 +1,4 @@
-# deepch-frontend
+# window-log
 
 1. 윈도우 로그 파일 열기
 1. 모든 로그 다른 형식으로 내보내기
