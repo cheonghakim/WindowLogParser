@@ -32,7 +32,7 @@ const csv = fs.readFileSync("./로그.csv");
     JSON.stringify(spliceObject(mapToObject(output))),
     (err) => {
       if (err) console.log(err);
-      fs.writeFileSync("./test.json", JSON.stringify(mapToObject(output)));
+      fs.writeFileSync("./date.json", JSON.stringify(mapToObject(output)));
     }
   );
 })();
